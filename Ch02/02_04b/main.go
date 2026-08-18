@@ -3,5 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Math")
+	f1,f2,f3 := 23.5, 65.1, 76.3 
+	floatSum := f1 + f2 +f3
+	fmt.Println("Float sum:",floatSum)
+
+	totalSum := float64(65) + f2 
+	fmt.Println("Total sum:",totalSum)
 }
